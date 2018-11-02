@@ -15,14 +15,14 @@
             </div>
         </div>
         <div class="main">
-            <div class="mejd">
+            <router-link to="/jindcx" tag="div" class="mejd">
                 <div class="zl">
                     进度查询
                 </div>
                 <div class="qb">
                     查看全部 >
                 </div>
-            </div>
+            </router-link>
             <div class="mesh">
                 <div>
                     <img src="../assets/images/审核中.png" class="img1">审核中
@@ -38,6 +38,21 @@
                 </div>
             </div>
         </div>
+        <router-link class="tix" to="/tixss" tag="div">
+            <img src="../assets/images/消息提醒.png" alt="">
+            还款提醒
+            <span>&gt;</span>
+        </router-link>
+        <router-link class="tix" to="/mesc" tag="div">
+            <img src="../assets/images/收藏.png" alt="">
+            我的收藏
+            <span>&gt;</span>
+       </router-link>
+        <router-link class="tix" to="/mezx" tag="div">
+            <img src="../assets/images/帮助中心.png" alt="">
+            帮助中心
+            <span>&gt;</span>
+        </router-link>
     </div>
 </template>
 
@@ -48,9 +63,6 @@ export default {
 </script>
 
 <style scoped>
-#box{
-    background: #fafafa;
-}
     .header{
         width: 100%;
         height: 0.6rem;
@@ -100,6 +112,9 @@ export default {
         justify-content: space-between;
         border-bottom: 1px solid #ccc;
     }
+    .main .mejd .qb{
+        cursor: pointer;
+    }
     .mesh{
         height: 1.1rem;
         font-size: 0.25rem;
@@ -110,13 +125,14 @@ export default {
         width: 0.42rem;
         height: 0.35rem;
         display: inline-block;
-        margin:-0.1rem 0.2rem;
+        
     }
     .mesh div{
         flex: 1;
         line-height: 1.1rem;
         border-right: 1px solid #ccc;
         padding: 0 0.15rem;
+        text-align: center;
     }
     .mesh div:last-child{
         border-right: none;
@@ -125,6 +141,24 @@ export default {
         width: 0.3rem;
         height: 0.3rem;
         display: inline-block;
-        margin: 5px 0;
+        margin: 0.05rem 0;
+    }
+    .tix{
+        height: 0.9rem;
+        font-size: 0.25rem;
+        background: #fff;
+        margin-bottom: 0.2rem;
+        line-height: 0.9rem;
+        cursor: pointer;
+    }
+    .tix img{
+        display: inline-block;
+        height: 0.35rem;
+        width: 0.3rem;
+        margin:-0.1rem 0.2rem;
+    }
+    .tix span{
+        float: right;
+        margin-right: 0.3rem;
     }
 </style>
