@@ -75,8 +75,4 @@ export default {
     .main li span{
         float: right;
     }
-    .main li span img{
-        /* height: 0.1rem;
-        width: 0.2rem; */
-    }
 </style>
