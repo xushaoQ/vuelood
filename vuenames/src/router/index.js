@@ -5,6 +5,8 @@ import tix from '@/pages/tixss'
 import mescc from '@/pages/mesc'
 import meszx from '@/pages/mezx'
 import jindcxx from '@/pages/jindcx'
+import xxhktx from '@/pages/xxhktx'
+
 Vue.use(Router)
 
 export default new Router({
@@ -28,5 +30,9 @@ export default new Router({
         path: '/jindcx',
         name: 'jindcx',
         component: jindcxx
+    }, {
+        path: '/xxhktx',
+        name: 'xxhktx',
+        component: xxhktx
     }]
 })
