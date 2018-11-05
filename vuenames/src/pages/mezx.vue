@@ -8,7 +8,7 @@
             <span class="right"></span>
         </header>
         <h3>分类1</h3>
-        <div>
+        <div class="main">
             <ul>
                 <li>问题1<span>
                     <img src="../assets/images/箭头下.png"></span>
@@ -61,5 +61,22 @@ export default {
         height: 0.75rem;
         line-height: 0.75rem;
         padding-left: 0.3rem;
+    }
+    .main{
+        background: #fff;
+    }
+    .main li{
+        height: 0.9rem;
+        line-height: 0.9rem;
+        padding: 0 0.3rem;
+        font-size: 0.25rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .main li span{
+        float: right;
+    }
+    .main li span img{
+        /* height: 0.1rem;
+        width: 0.2rem; */
     }
 </style>
