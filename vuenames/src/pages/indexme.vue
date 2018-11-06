@@ -53,12 +53,15 @@
             帮助中心
             <span>&gt;</span>
         </router-link>
+        <fooder></fooder>
     </div>
 </template>
 
 <script>
+import fooder from '../components/fooder'
 export default {
-    name:'indexme'
+    name:'indexme',
+    components:{fooder}
 }
 </script>
 
@@ -110,7 +113,7 @@ export default {
         line-height: 0.7rem;
         padding: 0 0.3rem;
         justify-content: space-between;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #f0f0f0;
     }
     .main .mejd .qb{
         cursor: pointer;
@@ -130,7 +133,7 @@ export default {
     .mesh div{
         flex: 1;
         line-height: 1.1rem;
-        border-right: 1px solid #ccc;
+        border-right: 1px solid #f5f5f5;
         padding: 0 0.15rem;
         text-align: center;
     }
