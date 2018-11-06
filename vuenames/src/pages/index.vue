@@ -76,11 +76,6 @@
                     <dd>我是像白莲花一样的内容摘要，白莲花内容摘要白莲花内容摘要...</dd>
                 </dl>
             </div>
-            <div class="dianzan">
-                <img src="../assets/images/已看.png">1234
-                <img src="../assets/images/收藏.png">
-                <span>30分钟前</span>
-            </div>
             <div class="content">
                 <span>攻略</span>
                 <dl>
@@ -91,11 +86,9 @@
                     <dd>我是像白莲花一样的内容摘要，白莲花内容摘要白莲花内容摘要...</dd>
                 </dl>
             </div>
-            <div class="dianzan">
-                <img src="../assets/images/已看.png">1234
-                <img src="../assets/images/收藏.png">
-                <span>30分钟前</span>
-            </div>
+        </div>
+        <div class="more">
+            <p>查看更多</p>
         </div>
   </div>
 
@@ -174,5 +167,31 @@ var mySwiper = new Swiper('.swiper-container', {
     .content{
         posiation:relative;
         border-top:0.01rem solid #ccc;
+    }
+    .content span{
+        posiation:absolute;
+        top:0.2rem;
+        left:0.3rem;
+        font-size:0.2rem;
+    }
+    .content dl dt{
+        float:left;
+    }
+    .content dl dt imh{
+        width:1.3rem;
+        height:1.3rem;
+    }
+    .content dl dd{
+        color:#4c4c4c;
+        font-size:0.26rem;
+    }
+    .content dl dd:first-child{
+        font-size:0.3rem;
+        color:#333333;
+    }
+    .more{
+        width:100%;
+        color:#808080;
+        font-size:0.24rem;
     }
 </style>
