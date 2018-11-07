@@ -2,7 +2,7 @@
   "name": "vuenames",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "xusQ520 <xusQ520@163.com>",
+  "author": "apengyou <16619911479@163.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
