@@ -72,7 +72,6 @@ export default {
         width: 10%;
         display: flex;
         justify-content: center;
-        
     }
     .header .title{
         font-size: 0.28rem;

@@ -13,7 +13,8 @@ import mescc from '@/pages/mesc'
 import meszx from '@/pages/mezx'
 import jindcxx from '@/pages/jindcx'
 import xxhktx from '@/pages/xxhktx'
-
+// 登录页面
+import denglus from '@/pages/denglu'
 Vue.use(Router)
 
 export default new Router({
@@ -57,5 +58,9 @@ export default new Router({
         path: '/xxhktx',
         name: 'xxhktx',
         component: xxhktx
+    }, {
+        path: '/denglu',
+        name: 'denglu',
+        component: denglus
     }]
 })
