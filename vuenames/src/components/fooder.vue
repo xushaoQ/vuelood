@@ -6,14 +6,14 @@
                     <img src="../assets/images/首页2.png">
                     <div class="name">首页</div>
                 </router-link>
-                <li>
+                <router-link to="/chanp" tag="li">
                     <img src="../assets/images/产品2.png">
                     <div class="name">产品</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/jingzpp" tag="li">
                     <img src="../assets/images/精准匹配2.png">
                     <div class="name">精准匹配</div>
-                </li>
+                </router-link>
                 <router-link to="/indexme" tag="li">
                 <img src="../assets/images/我2.png">
                     <div class="name">我的</div>
