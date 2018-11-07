@@ -20,18 +20,18 @@
             </div>
         </div>
         <div class="fenlei">
-            <span>
+            <router-link to="/xiaoxjdcx" tag="span">
                 <img src="../assets/images/进度查询.png">
-                <a>进度查询</a>
-            </span>
+                                <a>进度查询</a>
+            </router-link>
             <span>
                 <img src="../assets/images/速贷排行.png">
                 <a>速贷排行</a>
             </span>
-            <span>
+            <router-link to="/xiaoxhktx" tag="span">
                 <img src="../assets/images/还款提醒.png">
                 <a>还款提醒</a>
-            </span>
+            </router-link>
         </div>
         <div class="Borrow-cash">
             <p>借现金<span>更多&gt;</span></p>
