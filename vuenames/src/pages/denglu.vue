@@ -19,6 +19,6 @@ export default {
     background-repeat: no-repeat;
 }
 .box .fanh{
-    /* background: red; */
+    background: red;
 }
 </style>
