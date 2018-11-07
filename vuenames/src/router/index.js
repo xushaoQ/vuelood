@@ -2,6 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // 首页跳转
 import index from '@/pages/index'
+// 产品跳转
+import chanps from '@/pages/chanp'
+// 精准匹配
+import jingzpps from '@/pages/jingzpp'
 // 消息跳转
 import xiaoxhktxs from '@/pages/xiaoxhktx'
 import xiaoxjdcxs from '@/pages/xiaoxjdcx'
@@ -13,7 +17,8 @@ import mescc from '@/pages/mesc'
 import meszx from '@/pages/mezx'
 import jindcxx from '@/pages/jindcx'
 import xxhktx from '@/pages/xxhktx'
-
+// 登录页面
+import denglus from '@/pages/denglu'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +26,14 @@ export default new Router({
         path: '/',
         name: 'index',
         component: index
+    }, {
+        path: '/chanp',
+        name: 'chanp',
+        component: chanps
+    }, {
+        path: '/jingzpp',
+        name: 'jingzpp',
+        component: jingzpps
     }, {
         path: '/indexme',
         name: 'indexme',
@@ -57,5 +70,9 @@ export default new Router({
         path: '/xxhktx',
         name: 'xxhktx',
         component: xxhktx
+    }, {
+        path: '/denglu',
+        name: 'denglu',
+        component: denglus
     }]
 })

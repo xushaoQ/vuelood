@@ -10,16 +10,41 @@
         <h3>分类1</h3>
         <div class="main">
             <ul>
-                <li>问题1<span>
-                    <img src="../assets/images/箭头下.png"></span>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
                     </li>
-                <li>问题1<span>
-                    <img src="../assets/images/箭头下.png"></span></li>
-                <li>问题1<span>
-                    <img src="../assets/images/箭头下.png"></span></li>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
+                    </li>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
+                    </li>
             </ul>
         </div>
         <h3>分类2</h3>
+        <div class="main">
+            <ul>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
+                    </li>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
+                    </li>
+                <li>问题1
+                    <span><img src="../assets/images/箭头上.png"></span>
+                    </li>
+            </ul>
+        </div>
+        <p>
+            请问如图一哦i请问如图一哦微软推梵蒂冈请问如图一哦啊二十日的头发和国际银行家请问retry丰田皇冠进而的父母看了他和飞机跑道为人民我认识个窘迫模块
+        </p>
+        <div class="main">
+            <ul>
+                <li>问题1
+                    <span><img src="../assets/images/箭头下.png"></span>
+                    </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -47,14 +72,12 @@ export default {
         width: 10%;
         display: flex;
         justify-content: center;
-        
     }
     .header .title{
         font-size: 0.28rem;
         color: #fff;
         flex: 1;
         text-align: center;
-
     }
     h3{
         font-size: 0.25rem;
@@ -71,8 +94,20 @@ export default {
         padding: 0 0.3rem;
         font-size: 0.25rem;
         border-bottom: 1px solid #ccc;
+        position: relative;
+    }
+    .main li:last-child{
+        border-bottom: none;
     }
     .main li span{
-        float: right;
+        position: absolute;
+        right: 0.3rem;
+        top: 0.2rem;
+    }
+    p{
+        font-size: 0.25rem;
+        margin: 0.2rem 0;
+        padding:  0 0.3rem;
+        line-height: 0.4rem;
     }
 </style>

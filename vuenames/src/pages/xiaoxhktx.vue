@@ -1,9 +1,9 @@
 <template>
     <div class="box">
         <div class="top">
-            <div class="img_b">
-                <img src="../assets/images/返回.png" alt="" class="imgs">
-            </div>
+             <router-link to="/" tag="div"  class="img_b">
+             <img src="../assets/images/返回.png" alt="" class="imgs">
+             </router-link>
             <div class="cent">
                 <p>进度查询</p>
                 <p>还款提醒</p>
