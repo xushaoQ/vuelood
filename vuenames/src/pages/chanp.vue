@@ -262,6 +262,9 @@ export default {
   background: #fff;
   border-top: 0.1rem solid #fe696d;
 }
+.content:last-child{
+    margin-bottom: 1rem;
+}
 .xiny,
 .biaoq,
 .jianj {
@@ -287,6 +290,8 @@ export default {
 }
 .xiny dl dd img {
   margin-left: 0.1rem;
+  width:0.25rem;
+  height: 0.25rem;
 }
 .xiny dl dd:last-child {
   font-size: 0.2rem;
