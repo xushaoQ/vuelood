@@ -210,13 +210,14 @@ export default {
     .cent p:nth-child(1) {
         border-top-left-radius: 0.25rem;
         border-bottom-left-radius: 0.25rem;
+        background-color: red;
     }
     .cent p:nth-child(3) {
         border-top-right-radius: 0.25rem;
         border-bottom-right-radius: 0.25rem;
     }
     .cent p:nth-child(2) {
-        background-color: red;
+        /* background-color: red; */
     }
     .rig {
         width: 15%;

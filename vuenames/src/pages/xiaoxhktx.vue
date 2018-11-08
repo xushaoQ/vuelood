@@ -86,6 +86,7 @@ export default {
     .cent p:nth-child(3){
         border-top-right-radius: 0.25rem;
         border-bottom-right-radius: 0.25rem;
+        
     }
     .cent p:nth-child(2){
         background-color: red;
