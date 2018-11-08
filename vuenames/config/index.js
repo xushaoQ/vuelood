@@ -12,7 +12,6 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {},
 
-<<<<<<< HEAD
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
@@ -20,15 +19,6 @@ module.exports = {
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
-=======
-        // Various Dev Server settings
-        host: 'localhost', // can be overwritten by process.env.HOST
-        port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
-        autoOpenBrowser: true,
-        errorOverlay: true,
-        notifyOnErrors: true,
-        poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
->>>>>>> 8f2bc0b2e59dda7ffbcdec62f42c20bd10130788
 
         // Use Eslint Loader?
         // If true, your code will be linted during bundling and
