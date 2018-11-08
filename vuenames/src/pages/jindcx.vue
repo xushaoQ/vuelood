@@ -79,9 +79,78 @@
                 </div>
             </div>
         </div>
+        <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    审核中
+                </div>
+            </div>
+        </div>
             </div>
             <div v-if="tabs == 2">
                 <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    待放款
+                </div>
+            </div>
+        </div>
+        <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    待放款
+                </div>
+            </div>
+        </div>
+        <div class="cen_nei">
             <div class="cent_dl">
                 <dl>
                     <dt>
@@ -154,9 +223,78 @@
                 </div>
             </div>
         </div>
+        <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    已完成
+                </div>
+            </div>
+        </div>
+        <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    已完成
+                </div>
+            </div>
+        </div>
             </div>
             <div v-if="tabs == 5">
                 <div class="cen_nei">
+            <div class="cent_dl">
+                <dl>
+                    <dt>
+                        <img src="../assets/images/学生.png" alt="" class="xues">
+                    </dt>
+                    <dd>
+                        <p>屌丝贷</p>
+                        <p>产品：屌丝贷</p>
+                        <p>借款金额：1200元</p>
+                        <p>借款期限：20天</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="cent_right">
+                <div class="rig_top">
+                    2018-2-25   19:22
+                </div>
+                <div class="rig_bot">
+                    审核未通过
+                </div>
+            </div>
+        </div>
+        <div class="cen_nei">
             <div class="cent_dl">
                 <dl>
                     <dt>
